@@ -1,4 +1,5 @@
-// eslint-disable-next-line no-console
-const hello = (recipient: string) => console.log(`Hello ${recipient}`);
+export const hello = (recipient: string, log: (...args: unknown[]) => void) =>
+  log(`Hello ${recipient}`);
 
-hello('world');
+// eslint-disable-next-line no-console
+hello('world', console.log);

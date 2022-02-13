@@ -9,7 +9,6 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "importHelpers": true,
-    //"skipLibCheck": false,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
@@ -17,6 +16,6 @@
     "outDir": "./dist/",
     "types": ["node", "jest"]
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.test.ts"]
+  "include": ["src/**/*.ts"], // should we not include *.test.ts files here?
+  "exclude": ["node_modules"]
 }
