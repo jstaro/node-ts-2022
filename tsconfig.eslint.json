@@ -2,7 +2,8 @@
   "extends": "./tsconfig.json",
   "include": [
     "src/**/*.ts",
-    "jest.config.ts",
+    "jest.config.cjs",
+    "etsc.config.cjs",
     ".eslintrc.cjs",
     "prettier.config.cjs",
     "nodemon.json",

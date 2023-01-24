@@ -1,5 +1,4 @@
-export const hello = (recipient: string, log: (...args: unknown[]) => void) =>
-  log(`Hello ${recipient}`);
+import { hello } from './utils.js';
 
 // eslint-disable-next-line no-console
 hello('world', console.log);
